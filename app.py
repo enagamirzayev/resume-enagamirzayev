@@ -16,7 +16,7 @@ PAGE_TITLE = "Digital CV | Emin Aghamirzayev "
 PAGE_ICON = ":wave:"
 NAME = "Emin Aghamirzayev"
 DESCRIPTION = """
-Head of Analytics division, assisting enterprises by supporting data-driven, visualition and decision-making.
+Head of Analytics division, assisting enterprises by supporting data-driven, visualization in dashboard and decision-making.
 """
 EMAIL = "eminagamirzeyev@yahoo.com"
 SOCIAL_MEDIA = {
