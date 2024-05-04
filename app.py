@@ -16,22 +16,33 @@ PAGE_TITLE = "Digital CV | Emin Aghamirzayev "
 PAGE_ICON = ":wave:"
 NAME = "Emin Aghamirzayev"
 DESCRIPTION = """
-Head of Analytics division, assisting enterprises by supporting data-driven decision-making.
+Head of Analytics division, assisting enterprises by supporting data-driven, visualition and decision-making.
 """
 EMAIL = "eminagamirzeyev@yahoo.com"
 SOCIAL_MEDIA = {
-    "YouTube": "https://youtube.com/c/codingisfun",
-    "LinkedIn": "https://www.linkedin.com/feed/?trk=homepage-basic_sign-in-submit",
+    "LinkedIn": "https://www.linkedin.com/in/emin-aghamirzayev-95ab765a/",
     "GitHub": "https://github.com/enagamirzayev",
-    "Facebook": "https://twitter.com",
+    "HugginFace": "https://huggingface.co/Enagamirzayev",
+    "Kaggle": "https://www.kaggle.com/",
 }
 PROJECTS = {
-    "🏆 Sales Dashboard - Comparing sales across three stores": "https://youtu.be/Sb0A9i6d320",
-    "🏆 Income and Expense Tracker - Web app with NoSQL database": "https://youtu.be/3egaMfE9388",
-    "🏆 Desktop Application - Excel2CSV converter with user settings & menubar": "https://youtu.be/LzCfNanQ_9c",
-    "🏆 MyToolBelt - Custom MS Excel add-in to combine Python & Excel": "https://pythonandvba.com/mytoolbelt/",
+    "🏆 Sales KPI Dashboards for branches in web - Comparing sales across period of times": "https://resume-enagamirzayev.onrender.com/",#"https://youtu.be/Sb0A9i6d320",
+    "🏆 Loan and Card Tracker and etc Portfolio Dahbaords - Web app with plSQL database": "https://resume-enagamirzayev.onrender.com/",
+    "🏆 Service Time KPI Application and Dashboard - converter with product mangement time": "https://resume-enagamirzayev.onrender.com/",
+    "🏆 Chatbot in mobile - Related to database report and daily updated": "https://resume-enagamirzayev.onrender.com/",
+    "🏆 Chatbot in mobile - Related to database report and daily updated": "https://resume-enagamirzayev.onrender.com/",
 }
 
+
+CERTIFICATES = {
+    "🏅 IBM. Applied Data Science Capstone": "https://www.coursera.org/account/accomplishments/verify/LJUBC8ENF96B?utm_source%3Dandroid%26utm_medium%3Dcertificate%26utm_content%3Dcert_image%26utm_campaign%3Dsharing_cta%26utm_product%3Dcourse",#"https://youtu.be/Sb0A9i6d320",
+    "🏅 Univercity of Michigan. Applied Machine Learning in Python": "https://www.coursera.org/account/accomplishments/verify/QZTBEPAZK8CF",
+    "🏅 IBM. Data Analysis with Python": "https://www.coursera.org/account/accomplishments/verify/SARYBYABMPZR?utm_source%3Dandroid%26utm_medium%3Dcertificate%26utm_content%3Dcert_image%26utm_campaign%3Dsharing_cta%26utm_product%3Dcourse",
+    "🏅 IBM. Python for Data Science, AI & Development": "https://www.coursera.org/account/accomplishments/verify/HELB9T23UPLM?utm_source%3Dandroid%26utm_medium%3Dcertificate%26utm_content%3Dcert_image%26utm_campaign%3Dsharing_cta%26utm_product%3Dcourse",
+    "🏅 Data SoCool. Oracle Database SQL": "https://data.edu.az/az/verified/2022984/",
+    "🏅 IBM. Data Science Methodology": "https://www.coursera.org/account/accomplishments/verify/HFYC3BJ563C2?utm_source%3Dandroid%26utm_medium%3Dcertificate%26utm_content%3Dcert_image%26utm_campaign%3Dsharing_cta%26utm_product%3Dcourse",
+
+}
 
 st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
 
@@ -100,10 +111,10 @@ st.write('\n')
 st.subheader("Hard Skills")
 st.write(
     """
-- 👩‍💻 Programming: Python (Scikit-learn, Pandas), SQL, VBA
-- 📊 Data Visulization: PowerBi, MS Excel, Plotly
-- 📚 Modeling: Logistic regression, linear regression, decition trees
-- 🗄️ Databases: Postgres, MongoDB, MySQL
+- 👩‍💻 Programming: Python (Scikit-learn, Pandas, TensorFlow, Pytourch), SQL, VBA, NLP, Django, Streamlit, Flask
+- 📊 Data Visulization: PowerBi, MS Excel, Plotly, Dash
+- 📚 Modeling: Logistic regression, linear regression, SVM, SVR, decition trees, Ridg and LASSO regression, Huggingface transformer
+- 🗄️ Databases: Postgres, MongoDB, MySQL, PL OracleSQL
 """
 )
 
@@ -118,9 +129,12 @@ st.write("🚧", "**Head of Analytics devision | ABB**")
 st.write("10/2016 - Present")
 st.write(
     """
-- ► Used PowerBI and SQL to redeﬁne and track KPIs surrounding marketing initiatives, and supplied recommendations to boost landing page conversion rate by 38%
-- ► Led a team of 4 analysts to brainstorm potential marketing and sales improvements, and implemented A/B tests to generate 15% more client leads
-- ► Redesigned data model through iterations that improved predictions by 12%
+- ► Used PowerBI and SQL to redeﬁne and track KPIs surrounding marketing initiatives, and supplied recommendations to boost sales.
+- ► Led a team of 4 analysts to brainstorm potential KPI and sales improvements, and implemented client service times.
+- ► Redesigned data model through iterations that improved predictions.
+- ► Providing reports on various promotion dashboards that have the role of influencing increased sales for affiliates on the WEB platform.
+- ► At the same time, the reports are integrated into the chat bot according to the latest technologies.
+
 """
 )
 
@@ -130,9 +144,9 @@ st.write("🚧", "**Senior loan expert | Bank of Baku**")
 st.write("01/2011 - 09/2016")
 st.write(
     """
-- ► Built data models and maps to generate meaningful insights from customer data, boosting successful sales eﬀorts by 12%
-- ► Modeled targets likely to renew, and presented analysis to leadership, which led to a YoY revenue increase of $300K
-- ► Compiled, studied, and inferred large amounts of data, modeling information to drive auto policy pricing
+- ► Analysis, payment calculation and sale of consumer loans.
+- ► Follow-up of clients' follow-up payments and taking actions related to portfolio maintenance.
+- ► Collaborated with analyst team to oversee end-to-end process surrounding customers' return data.
 """
 )
 
@@ -142,9 +156,9 @@ st.write("🚧", "**Consultant | Ministry of Economic of the Republic of Azerbai
 st.write("04/2010 - 11/2010")
 st.write(
     """
-- ► Devised KPIs using SQL across company website in collaboration with cross-functional teams to achieve a 120% jump in organic traﬃc
-- ► Analyzed, documented, and reported user survey results to improve customer communication processes by 18%
-- ► Collaborated with analyst team to oversee end-to-end process surrounding customers' return data
+- ► Conduct research on interstate measures.
+- ► Conduct preliminary analysis of events. 
+- ► Constantly preparing offers. Conduct research on the development of relations, etc.
 """
 )
 
@@ -155,3 +169,13 @@ st.subheader("Projects & Accomplishments")
 st.write("---")
 for project, link in PROJECTS.items():
     st.write(f"[{project}]({link})")
+
+
+
+
+# --- Certificates & Accomplishments ---
+st.write('\n')
+st.subheader("Certificates")
+st.write("---")
+for i, link in CERTIFICATES.items():
+    st.write(f"[{i}]({link})")
