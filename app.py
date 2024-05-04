@@ -18,6 +18,7 @@ NAME = "Emin Aghamirzayev"
 DESCRIPTION = """
 Head of Analytics division, assisting enterprises by supporting data-driven, visualization in dashboard and decision-making.
 """
+
 EMAIL = "eminagamirzeyev@yahoo.com"
 SOCIAL_MEDIA = {
     "LinkedIn": "https://www.linkedin.com/in/emin-aghamirzayev-95ab765a/",
